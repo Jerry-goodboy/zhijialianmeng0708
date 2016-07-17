@@ -168,32 +168,144 @@ body {
 	position: absolute;
 }
 .cslcd-absolute-a-1 {
-	left: 0px;
+	left: 122px;
 }
 .cslcd-absolute-a-2 {
-	left: 0px;
+	left: 220px;
 }
 .cslcd-absolute-a-3 {
-	left: 0px;
+	left: 330px;
 }
 .cslcd-absolute-a-4 {
-	left: 0px;
+	left: 440px;
 }
 .cslcd-absolute-a-5 {
-	left: 0px;
+	left: 565px;
 }
 .cslcd-absolute-a-6 {
-	left: 0px;
+	left: 688px;
 }
 .cslcd-absolute-a-7 {
-	left: 0px;
+	left: 825px;
+}
+.cslcd-jiancai-box,
+.cslcd-jiancai-img {
+	position: relative;
+}
+.cslcd-jiancai-box {
+	padding-top:40px;
+	height: 500px;
+}
+.cslcd-jiancai-title,
+.cslcd-jiancai-border,
+.cslcd-jiancai-lefttop,
+.cslcd-jiancai-rightbottom {
+	position: absolute;
 }
 
-
-
-
-
-
+.cslcd-jiancai-title{
+	padding-left:20px;
+	padding-right:20px;
+	font-size: 22px;
+	font-weight: bold;
+	color:#333;
+	background: #fff;
+	left:50%;
+	top: 10px;
+	transform: translateX(-50%);
+}
+.cslcd-jiancai-border{
+	height:1px;
+	width:200px;
+	background: #aaa;
+	left:50%;
+	top: 28px;
+	transform: translateX(-50%);
+}
+.cslcd-jiancai-lefttop{
+	width:100px;
+	height: 50px;
+	border-top: 5px solid blue;
+	border-left: 5px solid blue;
+	left:;
+	top: ;
+}
+.cslcd-jiancai-rightbottom{
+	width:100px;
+	height: 50px;
+	border-bottom: 5px solid blue;
+	border-right: 5px solid blue;
+	right:0;
+	bottom: 10px;
+}
+.cslcd-jiancai-img,
+.cslcd-shejishi-img{
+	float: left;
+	width: 190px;
+	height: 205px;
+	margin-top: 12px;
+	margin-left: 12px;
+	text-align: center;
+}
+.cslcd-shejishi-img {
+	height: 165px;
+}
+.cslcd-jiancai-img img,
+.cslcd-shejishi-img-inside img {
+	max-height:100%;
+	max-width:100%;
+}
+.cslcd-shejishi-img-inside {
+	width: 190px;
+	height: 155px;
+}
+.cslcd-shejishi-img p span{
+	color: red;
+}
+.cslcd-shejishi-box {
+	background: rgba(250, 206, 191, 1);
+}
+.cslcd-shejishi-box-height {
+	height: 415px;
+}
+.cslcd-you-love {
+	position: absolute;
+	left:55%;
+	top: 28px;
+	color: red;
+	font-size: 20px;
+}
+.cslcd-footer-bg {
+	background-image: url(../imgs/nav_bg.png);
+	background-repeat: repeat;
+	height: 45px;
+}
+.cslcd-footer {
+	position: relative;
+	width: 1024px;
+}
+.cslcd-footer a {
+	position: absolute;
+	display: block;
+	height: 45px;
+	line-height: 45px;
+	font-size: 22px;
+	text-decoration: none;
+	color: #aaa;
+	left: 50%;
+}
+.cslcd-footer a:nth-child(1) {
+	transform: translateX(-275%);
+}
+.cslcd-footer a:nth-child(2) {
+	transform: translateX(-125%);
+}
+.cslcd-footer a:nth-child(3) {
+	transform: translateX(25%);
+}
+.cslcd-footer a:nth-child(4) {
+	transform: translateX(175%);
+}
 
 
 
