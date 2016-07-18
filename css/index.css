@@ -481,22 +481,242 @@ body {
 	background-image: url(../imgs/fuwushang-bg.jpg);
 	background-repeat: no-repeat;
 	background-size: 1920px 1468px;
-	background-position: center -160px;
+	background-position: center -30px;
 }
 .cslcd-fuwushang-ul-box {
 	position: relative;
+	height: 45px;
 }
-
-
-
-
-
-
-
-
-
-
-
+ul {
+	list-style: none;
+}
+.cslcd-fuwushang-ul {
+	position: absolute;
+    overflow: hidden;
+    width: 890px;
+    height: 35px;
+    margin-left: 75px;
+    padding-left: 0;
+    line-height: 35px;
+    font-size: 15px;
+    top: 10px;
+    background: #fff;
+}
+.cslcd-fuwushang-ul li {
+	float: left;
+	padding-left: 10px;
+    padding-right: 10px;
+}
+a {
+	color:#888;
+}
+.cslcd-fuwushang-ul-a {
+	position: absolute;
+	right:0;
+	display:block;
+	width:60px;
+	height:30px;
+	top: 10px;
+}
+.cslcd-fuwushang-ul-down {
+	top: 5px;
+}
+.cslcd-fuwushang-ul-sort-box {
+	position: relative;
+	height: 55px;
+}
+.cslcd-fuwushang-sort-ul {
+	overflow: hidden;
+	height: 55px;
+	line-height: 65px;
+    margin-left: 75px;
+}
+.cslcd-fuwushang-sort-ul li {
+	float: left;
+	padding-left: 10px;
+    padding-right: 10px;
+}
+.cslcd-fuwushang-sort-ul li .a{
+	display: block;
+	width: 72px;
+	height: 26px;
+	margin-left: 1px;
+}
+.cslcd-fuwushang-sort-ul-a-first {
+	margin-left: -10px!important;
+}
+.cslcd-fuwushang-sort-ul li a img {
+	max-height: 100%;
+	max-width: 100%;
+}
+.cslcd-fuwushang-img-box {
+	position: relative;
+	overflow: hidden;
+	padding-top: 2px;
+	background: #fff;
+}
+.cslcd-fuwushang-img {
+	width: 188px;
+	height: 303px;
+	float: left;
+	border: 1px solid #ddd;
+	margin-top: 18px;
+}
+.cslcd-fuwushang-img-inside {
+	width: 188px;
+	height: 210px;
+}
+.cslcd-fuwushang-img-inside img {
+	max-height: 100%;
+	max-width: 100%;
+}
+.cslcd-fuwushang-img-margin18 {
+	margin-left: 21px;
+}
+.cslcd-fuwushang-img-span-50 {
+	display: inline-block;
+	width:90px;
+	height:21px;
+	font-size: 12px;
+	line-height: 23px;
+	padding-left:5px;
+	padding-right: 5px;
+	font-weight: bolder;
+}
+.cslcd-fuwushang-img-span-100 {
+	display: inline-block;
+	width:180px;
+	height:21px;
+	font-size: 12px;
+	line-height: 23px;
+	padding-left:5px;
+	padding-right: 5px;
+	font-weight: bolder;
+}
+.cslcd-fuwushang-img-span-50 img {
+	width:13px;
+	height:13px;
+}
+.cslcd-fuwushang-nav-box {
+	height: 130px;
+}
+.cslcd-nav-logo {
+	float:left;
+	width:290px;
+	height:130px;
+}
+.cslcd-fuwushang-logo-right {
+	float:left;
+	width:734px;
+	height:130px;
+}
+.cslcd-nav-searchbar {
+	height:50px;
+	position: relative;
+}
+.cslcd-nav-box {
+	height: 80px;
+	position: relative;
+}
+.cslcd-nav-box-a {
+	display: block;
+	position: absolute;
+	background: #fff;
+	text-align: left;
+}
+.cslcd-nav-searchbar-dropdown,
+.cslcd-nav-searchbar-input,
+.cslcd-nav-searchbar-btn {
+	position: absolute;
+	display: block;
+}
+.cslcd-nav-searchbar-input:focus {
+  border-color: #fff;
+  outline: 0;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+.cslcd-nav-searchbar-dropdown {
+	left: 230px;
+	top: 16px;
+	width: 70px;
+	height: 26px;
+	background: #fff;
+}
+.cslcd-nav-searchbar-input {
+	left: 310px;
+	top: 16px;
+	width: 300px;
+	border:0;
+}
+.cslcd-nav-searchbar-btn {
+	left: 640px;
+	top: 12px;
+	width: 78px;
+	height: 35px;
+}
+.cslcd-nav-box-a-1 {
+	left: 30px;
+    top: 40px;
+    width: 50px;
+    height: 40px;
+}
+.cslcd-nav-box-a-2 {
+	left: 132px;
+    top: 5px;
+    width: 55px;
+    height: 40px;
+}
+.cslcd-nav-box-a-3 {
+	left: 239px;
+    top: 40px;
+    width: 90px;
+    height: 40px;
+}
+.cslcd-nav-box-a-4 {
+	left: 392px;
+    top: 6px;
+    width: 75px;
+    height: 40px;
+}
+.cslcd-nav-box-a-5 {
+	left: 525px;
+    top: 40px;
+    width: 95px;
+    height: 40px;
+}
+.cslcd-nav-box-a-6 {
+	left: 674px;
+    top: 40px;
+    width: 50px;
+    height: 40px;
+}
+.cslcd-fuwushang-footer {
+	position: relative;
+	height: 60px;
+    padding-top: 20px;
+    line-height: 40px;
+}
+.cslcd-fuwushang-footer-a {
+	position: absolute;
+	display: block;
+	color: #888;
+	background: rgba(245,245,245,1);
+	padding-left: 5px;
+	padding-right: 5px;
+}
+.cslcd-fuwushang-footer-a-1 {
+	left: 362px;
+}
+.cslcd-fuwushang-footer-a-2 {
+	left: 445px;
+}
+.cslcd-fuwushang-footer-a-3 {
+	left: 525px;
+}
+.cslcd-fuwushang-footer-a-4 {
+	left: 610px;
+}
 
 
 
