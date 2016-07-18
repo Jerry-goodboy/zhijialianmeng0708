@@ -743,10 +743,130 @@ a {
 	width:186px;
 	padding: 1px;
 }
+.cslcd-fuwushang-img-active {
+	border: 1px solid red;
+    background: rgba(254, 241, 234, 1);
+}
 
 
-
-
-
-
-
+.cslcd-dianpu-img-big-box {
+	width: 443px;
+	height: 175px;
+	float: left;
+	text-align: center;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+.cslcd-dianpu-img-big {
+	width: 165px;
+	height: 175px;
+	display: block;
+	float: left;
+	border: 1px solid #aaa;
+}
+.cslcd-dianpu-img-big img,
+.cslcd-dianpu-img-inside img,
+.cslcd-dianpu-img-inside-text100 img,
+.cslcd-dianpu-img-big-text-span-2 img,
+.cslcd-dianpu-img-big-text-span-8 img {
+	max-width: 100%;
+	height: 100%;
+}
+.cslcd-dianpu-img-big-text {
+	width: 275px;
+	height: 175px;
+	display: inline-block;
+	text-align: left;
+	padding-left: 10px;
+}
+.cslcd-dianpu-img-big-text span {
+	display: inline-block;
+}
+.cslcd-dianpu-img-inside-box {
+	float: left;
+	width: 130px;
+	height: 175px;
+	margin-left: 15px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	border: 1px solid #aaa;
+	position: relative;
+}
+.cslcd-dianpu-img-inside {
+	width: 128px;
+	height: 140px;
+}
+.cslcd-dianpu-img-inside-text50-1 {
+	position: absolute;
+	left: 3px;
+	top: 143px;
+	display: inline-block;
+	width: 60px;
+	height: 15px;
+	line-height: 15px;
+	color: red;
+	font-size: 12px;
+}
+.cslcd-dianpu-img-inside-text50-2 {
+	position: absolute;
+	right: 3px;
+	top: 143px;
+	display: inline-block;
+	width: 60px;
+	height: 15px;
+	line-height: 15px;
+	color: #ccc;
+	font-size: 12px;
+}
+.cslcd-dianpu-img-inside-text100 {
+	position: absolute;
+	left: 3px;
+	top: 157px;
+	display: inline-block;
+	width: 125px;
+	height: 13px;
+	line-height: 13px;
+}
+.cslcd-dianpu-img-big-text-span-1 {
+	width: 155px;
+	height: 35px;
+	font-size: 17px;
+	color:red;
+}
+.cslcd-dianpu-img-big-text-span-2 {
+	width: 90px;
+	height: 12px;
+}
+.cslcd-dianpu-img-big-text-span-3 {
+	width: 250px;
+	height: 30px;
+}
+.cslcd-dianpu-img-big-text-span-4 {
+	width: 250px;
+	height: 55px;
+	line-height: 25px;
+}
+.cslcd-dianpu-img-big-text-span-5 {
+	width: 85px;
+	height: 30px;
+}
+.cslcd-dianpu-img-big-text-span-6 {
+	width: 115px;
+	height: 20px;
+}
+.cslcd-dianpu-img-big-text-span-7 {
+	width: 115px;
+	height: 20px;
+}
+.cslcd-dianpu-img-big-text-span-8 {
+	width: 95px;
+	height: 16px;
+}
+.cslcd-dianpu-footer-before {
+	height: 145px;
+	background: #fff;
+}
+.cslcd-dianpu-box {
+	background-image: url("../imgs/shangpusousuo-bg.jpg");
+	
+}
