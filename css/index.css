@@ -717,6 +717,32 @@ a {
 .cslcd-fuwushang-footer-a-4 {
 	left: 610px;
 }
+.cslcd-fuwushang-ul-sort-box-bg {
+	position: absolute;
+	left: 110px;
+	top: 20px;
+	height:30px;
+	width:800px;
+	background: rgba(254, 241, 234, 1);
+}
+.cslcd-jiancai-sort-ul {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}
+.cslcd-jiancaishang-span-red {
+	display: inline;
+	color:red;
+}
+.cslcd-jiancaishang-span-delete {
+	display: inline;
+	color: #ddd;
+	text-decoration:line-through;
+}
+.cslcd-jiancaishang-img-inside {
+	width:186px;
+	padding: 1px;
+}
 
 
 
